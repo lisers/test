@@ -1,0 +1,26 @@
+<template name="br">
+  {{#ionModal customTemplate=true}}
+    {{# autoForm collection="Brxx" id=" brxx-new-form" type="insert"}}
+      <div class="bar bar-header bar-stable">
+        <button data-dismiss="modal" type="button" class="button button-clear">取消</button>
+        <h2 class="title">信息录入</h2>
+        <button type="submit" class="button button-positive button-clear">保存</button>
+      </div>
+       <div class="content has-header ">
+        {{> afQuickField name="xm"  }}
+        {{> afQuickField name="xh" value=mxh}}
+        <!-- {{> afQuickField name="xb" }}
+        {{> afQuickField name="csny" type="date"}}
+        {{> afQuickField name="sfz"}}
+        {{> afQuickField name="qq"}}
+        {{> afQuickField name="tel" type="tel"}}
+        {{> afQuickField name="email"}}
+        {{> afQuickField name="wx"}}
+        {{> afQuickField name="jtzz"}}
+        {{> afQuickField name="bzr"}}
+        {{> afQuickField name="bzrdz"}}
+        {{> afQuickField name="bzrtel"}} -->
+      </div>
+    {{/autoForm}}
+  {{/ionModal}}
+</template>
