@@ -1,0 +1,22 @@
+{
+    "_id" : "WpcEHxz2TnStDd3bo",
+    "moshi" : "sdjf",
+    "beizhu" : "时段计费",
+    "zt" : "0"
+}
+
+{
+    "_id" : "WqcFHxs2TnStDd3bo",
+    "moshi" : "sjjf",
+    "beizhu" : "时价计费",
+    "zt" : "1"
+}
+
+{
+    "_id" : "WpcEHxz2TnSsDf8bo",
+    "moshi" : "jtjf",
+    "beizhu" : "阶梯计费",
+    "zt" : "0"
+}
+
+jifei
